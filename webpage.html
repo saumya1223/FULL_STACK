@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    /* Element Selector */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4; /* HEX */
+      margin: 20px;
+    }
+
+    /* ID Selector */
+    #main-title {
+      color: rgb(34, 139, 34); /* RGB */
+      text-align: center;
+    }
+
+    /* Class Selector */
+    .highlight {
+      background-color: rgba(255, 99, 71, 0.3); /* RGBA */
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    /* Attribute Selector */
+    a[target="_blank"] {
+      color: hsl(200, 70%, 40%); /* HSL */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Pseudo-class Selector */
+    a:hover {
+      color: #ff4500; /* HEX */
+    }
+
+    /* Pseudo-element Selector */
+    p::first-line {
+      font-weight: bold;
+      color: rgb(0, 0, 128);
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-title">About Us</h1>
+  <p>
+    Welcome to our <span class="highlight">company</span>.  
+    We are dedicated to delivering quality and innovation in every project we work on.  
+    Visit our <a href="https://example.com" target="_blank">website</a> for more info.
+  </p>
+
+</body>
+</html>
